@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 10 Tourist Places in India</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        .places-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .place-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .place-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .place-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px;
+        }
+
+        .place-number {
+            display: inline-block;
+            background-color: rgba(255, 255, 255, 0.3);
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            margin-bottom: 10px;
+        }
+
+        .place-name {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .place-location {
+            font-size: 0.95em;
+            opacity: 0.9;
+        }
+
+        .place-content {
+            padding: 15px;
+        }
+
+        .place-description {
+            margin-bottom: 10px;
+            line-height: 1.8;
+        }
+
+        .place-highlights {
+            background-color: #f9f9f9;
+            padding: 10px;
+            border-left: 3px solid #667eea;
+            margin-top: 10px;
+        }
+
+        .place-highlights strong {
+            color: #667eea;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        .intro-section {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>🇮🇳 Discover India</h1>
+        <p>Top 10 Must-Visit Tourist Places in India</p>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Introduction Section -->
+        <div class="intro-section">
+            <h2>Welcome to India</h2>
+            <p>India is a land of diverse culture, rich history, and breathtaking landscapes. From ancient monuments to natural wonders, India offers unforgettable experiences for every traveler. Here are the top 10 tourist destinations that showcase the beauty and heritage of India.</p>
+        </div>
+
+        <!-- Tourist Places Grid -->
+        <div class="places-grid">
+            <!-- Place 1 -->
+            <div class="place-card">
+                <div class="place-header">
+                    <span class="place-number">Rank #1</span>
+                    <div class="place-name">Taj Mahal</div>
+                    <div class="place-location">📍 Agra, Uttar Pradesh</div>
+                </div>
+                <div class="place-content">
+                    <div class="place-description">
+                        The Taj Mahal is one of the seven wonders of the world and a symbol of love. This magnificent white marble mausoleum was built by Emperor Shah Jahan for his beloved wife Mumtaz Mahal.
+                    </div>
+                    <div class="place-highlights">
+                        <strong>Best Time:</strong> October to March<br>
+                        <strong>Famous For:</strong> Architecture, Sunrise views
+                    </div>
+                </div>
+            </div>
+
+            <!-- Place 2 -->
+            <div class="place-card">
+                <div class="place-header">
+                    <span class="place-number">Rank #2</span>
+                    <div class="place-name">Gateway of India</div>
+                    <div class="place-location">📍 Mumbai, Maharashtra</div>
+                </div>
+                <div class="place-content">
+                    <div class="place-description">
+                        An iconic landmark and a tribute to the British Raj, the Gateway of India is one of the most visited monuments in India. It overlooks the Arabian Sea and represents the entry point to Mumbai.
+                    </div>
+                    <div class="place-highlights">
+                        <strong>Best Time:</strong> All year round<br>
+                        <strong>Famous For:</strong> Sea views, Evening strolls
+                    </div>
+                </div>
+            </div>
+
+            <!-- Place 3 -->
+            <div class="place-card">
+                <div class="place-header">
+                    <span class="place-number">Rank #3</span>
+                    <div class="place-name">Red Fort</div>
+                    <div class="place-location">📍 Delhi</div>
+                </div>
+                <div class="place-content">
+                    <div class="place-description">
+                        The Red Fort is a massive fort built by Emperor Shah Jahan. Made of red sandstone, this UNESCO World Heritage Site is a symbol of India's independence and rich Mughal heritage.
+                    </div>
+                    <div class="place-highlights">
+                        <strong>Best Time:</strong> October to March<br>
+                        <strong>Famous For:</strong> Independence Day celebrations, Architecture
+                    </div>
+                </div>
+            </div>
+
+            <!-- Place 4 -->
+            <div class="place-card">
+                <div class="place-header">
+                    <span class="place-number">Rank #4</span>
+                    <div class="place-name">Hawa Mahal</div>
+                    <div class="place-location">📍 Jaipur, Rajasthan</div>
+                </div>
+                <div class="place-content">
+                    <div class="place-description">
+                        The "Palace of Winds" is a stunning pink structure with 953 small windows. Built in 1799, this iconic monument allows cool air to flow through and is a marvel of Rajasthani architecture.
+                    </div>
+                    <div class="place-highlights">
+                        <strong>Best Time:</strong> October to March<br>
+                        <strong>Famous For:</strong> Unique architecture, Pink city
+                    </div>
+                </div>
+            </div>
+
+            <!-- Place 5 -->
+            <div class="place-card">
+                <div class="place-header">
+                    <span class="place-number">Rank #5</span>
+                    <div class="place-name">Varanasi Ghats</div>
+                    <div class="place-location">📍 Varanasi, Uttar Pradesh</div>
+                </div>
+                <div class="place-content">
+                    <div class="place-description">
+                        Varanasi is one of the oldest cities in the world and is considered the spiritual capital of India. The ghats along the Ganges River are sacred and offer a unique spiritual experience.
+                    </div>
+                    <div class="place-highlights">
+                        <strong>Best Time:</strong> October to March<br>
+                        <strong>Famous For:</strong> Spirituality, Ganga Aarti ceremonies
+                    </div>
+                </div>
+            </div>
+
+            <!-- Place 6 -->
+            <div class="place-card">
+                <div class="place-header">
+                    <span class="place-number">Rank #6</span>
+                    <div class="place-name">Backwaters of Kerala</div>
+                    <div class="place-location">📍 Kochi & Alleppey, Kerala</div>
+                </div>
+                <div class="place-content">
+                    <div class="place-description">
+                        The backwaters of Kerala are a network of lagoons, lakes, and islands. This tropical paradise is famous for its houseboat cruises and serene natural beauty surrounded by coconut palms.
+                    </div>
+                    <div class="place-highlights">
+                        <strong>Best Time:</strong> August to May<br>
+                        <strong>Famous For:</strong> Houseboat rides, Scenic beauty
+                    </div>
+                </div>
+            </div>
+
+            <!-- Place 7 -->
+            <div class="place-card">
+                <div class="place-header">
+                    <span class="place-number">Rank #7</span>
+                    <div class="place-name">City Palace</div>
+                    <div class="place-location">📍 Jaipur, Rajasthan</div>
+                </div>
+                <div class="place-content">
+                    <div class="place-description">
+                        The City Palace of Jaipur is a blend of Rajasthani and Mughal architecture. Built in 1729, this magnificent palace is still partially a royal residence and showcases traditional craftsmanship.
+                    </div>
+                    <div class="place-highlights">
+                        <strong>Best Time:</strong> October to March<br>
+                        <strong>Famous For:</strong> Architectural elegance, Royal heritage
+                    </div>
+                </div>
+            </div>
+
+            <!-- Place 8 -->
+            <div class="place-card">
+                <div class="place-header">
+                    <span class="place-number">Rank #8</span>
+                    <div class="place-name">Meenakshi Temple</div>
+                    <div class="place-location">📍 Madurai, Tamil Nadu</div>
+                </div>
+                <div class="place-content">
+                    <div class="place-description">
+                        One of the oldest temples in India, the Meenakshi Temple is an architectural marvel dedicated to Goddess Meenakshi. Known for its intricate sculptures and colorful gopurams (towers).
+                    </div>
+                    <div class="place-highlights">
+                        <strong>Best Time:</strong> October to March<br>
+                        <strong>Famous For:</strong> Religious significance, Temple architecture
+                    </div>
+                </div>
+            </div>
+
+            <!-- Place 9 -->
+            <div class="place-card">
+                <div class="place-header">
+                    <span class="place-number">Rank #9</span>
+                    <div class="place-name">Hampi</div>
+                    <div class="place-location">📍 Karnataka</div>
+                </div>
+                <div class="place-content">
+                    <div class="place-description">
+                        Hampi is a UNESCO World Heritage Site with ruins of the Vijayanagara Empire. The site features stunning temples, monuments, and boulder-strewn landscapes that tell the story of ancient India.
+                    </div>
+                    <div class="place-highlights">
+                        <strong>Best Time:</strong> October to March<br>
+                        <strong>Famous For:</strong> Historical ruins, Spiritual atmosphere
+                    </div>
+                </div>
+            </div>
+
+            <!-- Place 10 -->
+            <div class="place-card">
+                <div class="place-header">
+                    <span class="place-number">Rank #10</span>
+                    <div class="place-name">Goa Beaches</div>
+                    <div class="place-location">📍 Goa</div>
+                </div>
+                <div class="place-content">
+                    <div class="place-description">
+                        Goa is famous for its beautiful beaches, Portuguese colonial architecture, and vibrant nightlife. The beaches like Baga, Calangute, and Anjuna offer a perfect blend of relaxation and adventure.
+                    </div>
+                    <div class="place-highlights">
+                        <strong>Best Time:</strong> November to February<br>
+                        <strong>Famous For:</strong> Beaches, Water sports, Nightlife
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Discover India - Top Tourist Places. All rights reserved.</p>
+        <p>Created as a beginner's guide to India's most beautiful destinations.</p>
+    </footer>
+</body>
+</html>
